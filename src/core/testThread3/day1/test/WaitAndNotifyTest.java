@@ -68,4 +68,20 @@ public class WaitAndNotifyTest {
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * 线程是wait状态，如果调用interrupt()方法会抛出异常
+	 */
+	@Test
+	public void waitAndInterrupt(){
+		try{
+			Object lock = new Object();
+			WaitThread waitThread = new WaitThread(lock);
+			waitThread.start();
+			waitThread.sleep(1000);
+			waitThread.interrupt();
+		}catch(InterruptedException e){
+			e.printStackTrace();
+		}
+		
+	}
 }
