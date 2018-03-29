@@ -1,5 +1,8 @@
 package core.testThread4.day1.model;
-
+/**
+ * ReentrantLock的线程测试
+ * @author wangruigen
+ */
 public class Mythread extends Thread {
 	private ReentrantLockTest reentrantLockTest;
 	

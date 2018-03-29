@@ -3,7 +3,7 @@ package core.testThread4.day1.model;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 /**
- * 测试ReentrantLock
+ * 测试ReentrantLock的基本使用
  * @author wrg
  */
 public class ReentrantLockTest {

@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 测试ReentrantLock，的lock()方法被调用时，线程就持有了“对象监视器”，其他线程只有等到锁释放才能执行下面操作，
- * 效果和synchronized一样
+ * 效果和synchronized一样 
  * @author wrg
  */
 public class ReentrantLockTest2 {
