@@ -1,4 +1,4 @@
 /**
- * 测试ReentrantLock
+ * 测试 ReentrantLock
  */
 package core.testThread4.day1;
