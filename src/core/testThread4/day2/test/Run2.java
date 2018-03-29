@@ -4,7 +4,7 @@ import core.testThread4.day2.model.MyService2;
 import core.testThread4.day2.model.Thread2;
 
 /**
- * 测试使用Condition来实现 等待/通知
+ * 测试使用一个Condition来实现 等待/通知
  * @author wangruigen
  */
 public class Run2 {
