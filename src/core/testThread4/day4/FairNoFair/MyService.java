@@ -14,7 +14,6 @@ public class MyService {
 		try {
 			lock.lock();
 			System.out.println("ThreadName="+Thread.currentThread().getName()+"获得锁定");
-			
 		}finally {
 			lock.unlock();
 		}
